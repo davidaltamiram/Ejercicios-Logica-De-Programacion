@@ -1,0 +1,25 @@
+body
+{
+    position: relative;
+    width: 100vw;
+}
+
+.number
+{
+    width: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    box-shadow: 0 0 10px #00000022;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+}

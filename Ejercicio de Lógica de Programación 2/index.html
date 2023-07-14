@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container" id="temp">
+        <label for="temparatureInput">
+            Ingresa el valor de la temparatura
+            <!-- Input de temperatura  -->
+            <input type="text" id="temparatureInput" name="inputTemp" value="">
+            <!-- signo de temperatura de entrada  -->
+            <span id="signInput"></span>
+        </label>
+
+
+        <h2>Entrada:</h2>
+
+        <label for="faInput">
+            Farenheit
+            <input type="radio" id="faInput" name="input" checked value="farenheit">
+        </label>
+        <label for="ceInput">
+            Celsius
+            <input type="radio" id="ceInput" name="input" value="celsius">
+        </label>
+        <label for="keInput">
+            Kelvin
+            <input type="radio" id="keInput" name="input" value="kelvin">
+        </label>
+
+        <h2>Salida:</h2>
+
+        <label for="faOutput">
+            Farenheit
+            <input type="radio" id="faOutput" name="output" checked value="farenheit">
+        </label>
+        <label for="ceOutput">
+            Celsius
+            <input type="radio" id="ceOutput" name="output" value="celsius">
+        </label>
+        <label for="keOutput">
+            Kelvin
+            <input type="radio" id="keOutput" name="output" value="kelvin">
+        </label>
+        
+        <div id="outputContainer">
+            <span id="tempOutput"></span>
+            <span id="signOutput"></span>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container
+{
+    border: 1px solid #434343;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px #00000066;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.card
+{
+    position: relative;
+    font-size: 1.5rem;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #434343;
+    box-shadow: 0 0 15px #00000066;
+    border-radius: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+button
+{
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+}
